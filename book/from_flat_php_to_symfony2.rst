@@ -677,7 +677,7 @@ même pas à le créer !)::
     $kernel->handle(Request::createFromGlobals())->send();
 
 Le seul rôle du contrôleur frontal est d'initialiser le moteur Symfony2 (``Kernel``)
-et de lui passer à un objet ``Request`` à traiter. Le coeur de Symfony2 utilise alors 
+et de lui passer un objet ``Request`` à traiter. Le coeur de Symfony2 utilise alors 
 la table de routage pour déterminer quel contrôleur appeler. Comme précédemment, c'est à la
 méthode du contrôleur de retourner un objet ``Response``.
 
